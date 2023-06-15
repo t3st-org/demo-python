@@ -8,3 +8,6 @@ name = "python"
 
 [[transformers]]
 name = "black"
+
+[[transformers]]
+name = "autopep8"
