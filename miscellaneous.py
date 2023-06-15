@@ -17,11 +17,11 @@ def render():
     render_to_frontend(
         fruit.orange
     )  # Rendering a color, but one can get confused with the fruit
-    render_bg(    fruit.get_orange)
+    render_bg(fruit.get_orange)
 
 
 def play_with_magic_numbers():
-    magic_numbers = {0,    1, 1, 2, 3, 5}
+    magic_numbers = {0, 1, 1, 2, 3, 5}
 
     for elem in magic_numbers:
         magic_numbers.add(get_next(elem))
